@@ -1,8 +1,12 @@
-all:
-	g++ src/main.cpp -o matrix_mul -O2
+CXX = g++
+CXXFLAGS = -O2 -std=c++17 -fopenmp
+TARGET = matrix_mul_omp
+SRC = src/main.cpp
 
-run:
-	./matrix_mul
+all: $(TARGET)
 
-verify:
-	python3 scripts/verify.py
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
+
+clean:
+	rm -f $(TARGET) data/result_cpp.txt results/experiments.csv
