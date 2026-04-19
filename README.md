@@ -12,6 +12,10 @@ make run
 pip install -r requirements.txt  
 make verify
 
-## Отчёт
+## Полная серия экспериментов (Лабораторная 2)
 
-Отчёт находится в файле `report.pdf`.
+python3 scripts/run_experiments.py
+
+## Отчёты
+
+Отчёт Лабораторной №1 находится в файле `report.pdf`.
