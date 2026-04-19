@@ -19,3 +19,5 @@ python3 scripts/run_experiments.py
 ## Отчёты
 
 Отчёт Лабораторной №1 находится в файле `report.pdf`.
+
+Отчёт Лабораторной №2 находится в файле `report_2.pdf`.
