@@ -7,3 +7,5 @@
 Отчёт Лабораторной №3 находится в `lab3_mpi/report_lab3_filled.md`.
 
 Отчёт Лабораторной №4 находится в `lab4_cuda/report_lab4.md`.
+
+Отчёт Лабораторной №5 находится в `lab5/report_lab_5.pdf`.
